@@ -17,18 +17,3 @@ OTHER_FEATURES = [
     SEVERITY_TYPE_FINLE_NAME,  # there are 6 features
     LOG_FEATRE_FINLE_NAME  # 445 features
 ]
-
-
-if __name__ == "__main__":
-    import pandas as pd
-    import os
-    df = pd.read_csv(os.path.join(DATA_PATH, 'event_type.csv'), index_col='id')
-    # df = pd.read_csv('event_type.csv')
-    print df[df.index.isin([1, 2, 5, 6, 8])].iloc[:, 0]
-
-
-
-
-
-
-
