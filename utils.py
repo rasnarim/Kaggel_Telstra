@@ -64,7 +64,6 @@ class FeatureVecBuilder:
         self.test_ids = test_data.index
         all_data = pd.concat([train_data, test_data])
         self.train_lables = train_data.loc[:, self.fault_severity_col_name]
-        # all_data.set_index(self.id_column_name, inplace=True)
         # make dummy_variable
         # for each file in other_features --> new features are added to dummy_variable
         #
