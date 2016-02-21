@@ -2,6 +2,7 @@ __author__ = 'rasoul'
 
 
 DATA_PATH = '~/DATA/Kaggle/Telstra'
+# DATA_PATH = '~/DATA/Kaggle/Telstra_test'
 # DATA_PATH = '.'
 TRINING_DATA_FINLE_NAME = 'train.csv'
 TEST_DATA_FINLE_NAME = 'test.csv'
