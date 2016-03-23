@@ -1,0 +1,14 @@
+id,location,fault_severity
+1,Locatoin_1,1
+5,Locatoin_1,0
+6,Locatoin_2,1
+8,Locatoin_2,0
+13,Locatoin_2,0
+19,Location_3,1
+20,Location_3,2
+23,Location_3,0
+24,Location_4,1
+26,Location_4,2
+27,Location_4,2
+28,Location_5,1
+29,Location_5,2
