@@ -13,3 +13,5 @@
     numpy
     matplotlib
 #### data: https://www.kaggle.com/c/telstra-recruiting-network/data
+## testing
+### test_utils.py provides basic test for FeatureVecBuilder - test data can be found in /test_data
